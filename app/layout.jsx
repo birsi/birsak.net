@@ -13,8 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <div>{children}</div>
+        <div className="relative">
+          <div className="p-8 min-h-screen relative max-w-screen-xl sm:p-24">
+            <Header />
+          </div>
+        </div>
       </body>
     </html>
   );

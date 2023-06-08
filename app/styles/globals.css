@@ -17,3 +17,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer utilities {
+  @responsive {
+    .max-w-150 {
+      max-width: 150px;
+    }
+
+    .top-5 {
+      top: 5%;
+    }
+  }
+}
