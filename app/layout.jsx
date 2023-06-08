@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         <div className="relative">
           <div className="p-8 min-h-screen relative max-w-screen-xl sm:p-24">
             <Header />
+            {children}
           </div>
         </div>
       </body>
