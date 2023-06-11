@@ -28,7 +28,7 @@ export default function Navbar() {
 
   return (
     <LayoutGroup>
-      <nav className="mt-8 ml-[-10px] text-zinc-800 uppercase font-semibold text-xs tracking-wider">
+      <nav className="ml-[-10px] text-zinc-800 uppercase font-semibold text-xs tracking-wider">
         {Object.entries(navItems).map(([path, { name }]) => {
           const isActive = path === pathname;
           return (

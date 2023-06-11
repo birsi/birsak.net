@@ -2,28 +2,49 @@ import Image from "next/image";
 import Link from "next/link";
 import profileImage from "../../public/images/profile.jpg";
 import Navbar from "./navbar";
+import { GithubIcon, LinkedInIcon, TwitterIcon } from "./icons";
 
 export default function Header() {
   return (
-    <header className="block mb-6 md:flex">
-      <div className="w-36">
-        <Link href="/">
-          <Image
-            src={profileImage}
-            alt="Michael Birsak"
-            className="rounded-full transform transition-all duration-150 hover:scale-105"
-            priority
-          />
-        </Link>
-      </div>
-      <div className="flex-none pt-6 md:pt-1 md:flex-1 md:pl-16">
-        <h1 className="text-5xl text-zinc-300 leading-tight font-bold">
-          Michael Birsak
-        </h1>
-        <p className="text-zinc-600">
-          Software Engineer & Manager – based in Vienna, Austria 🇦🇹
-        </p>
-        <Navbar />
+    <header className="block md:flex md:flex-col">
+      <Navbar />
+      <div className="block md:flex flex-row mt-10">
+        <div className="w-36 flex-none">
+          <Link href="/">
+            <Image
+              src={profileImage}
+              alt="Michael Birsak"
+              className="rounded-full"
+              priority
+            />
+          </Link>
+        </div>
+        <div className="md:flex md:flex-col md:pl-12 justify-center">
+          <h1 className="text-5xl leading-tight font-bold">Michael Birsak</h1>
+          <p className="text-zinc-600">
+            Software Engineer & Manager – based in Vienna, Austria 🇦🇹
+          </p>
+          <div className="flex mt-5 gap-4 md:justify-start">
+            <a
+              href=""
+              className="fill-zinc-500 hover:fill-white transition-all"
+            >
+              <GithubIcon />
+            </a>
+            <a
+              href=""
+              className="fill-zinc-500 hover:fill-white transition-all"
+            >
+              <LinkedInIcon />
+            </a>
+            <a
+              href=""
+              className="fill-zinc-500 hover:fill-white transition-all"
+            >
+              <TwitterIcon />
+            </a>
+          </div>
+        </div>
       </div>
     </header>
   );
