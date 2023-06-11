@@ -5,15 +5,28 @@
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 30, 30, 30;
+  --background-end-rgb: 50, 50, 50;
 }
 
 body {
-  color: rgb(229 231 235);
+  @apply text-zinc-300;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+*::selection {
+  color: white;
+  background: rgb(50 50 50);
+}
+
+h2 {
+  @apply text-zinc-600
+    font-semibold
+    uppercase
+    my-5
+    text-xs;
 }
