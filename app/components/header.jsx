@@ -26,19 +26,22 @@ export default function Header() {
           </p>
           <div className="flex mt-5 gap-4 md:justify-start">
             <a
-              href=""
+              href="https://github.com/birsi"
+              target="_blank"
               className="fill-zinc-500 hover:fill-white transition-all"
             >
               <GithubIcon />
             </a>
             <a
-              href=""
+              href="https://www.linkedin.com/in/michaelbirsak/"
+              target="_blank"
               className="fill-zinc-500 hover:fill-white transition-all"
             >
               <LinkedInIcon />
             </a>
             <a
-              href=""
+              href="https://twitter.com/MichaelBirsak"
+              target="_blank"
               className="fill-zinc-500 hover:fill-white transition-all"
             >
               <TwitterIcon />
