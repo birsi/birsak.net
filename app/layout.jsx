@@ -1,6 +1,7 @@
 import "./styles/globals.css";
 import { Inter } from "next/font/google";
 import Header from "./components/header";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ import Header frative max-w-screen-xl sm:p-24"
           >
             <Header />
             {children}
+            <Analytics />
           </div>
         </div>
       </body>
