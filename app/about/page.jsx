@@ -68,7 +68,7 @@ export default function About() {
       </p>
       <p className="pb-2">
         Being able to switch between operative, tactical and strategic tasks,
-        and not being afraid to switch back and forth from individual
+        and not being afraid to change back and forth from individual
         contributor and management roles, helped me to develop my ability to
         engage and talk at multiple levels of an organization – from executive
         and high-level interactions to extreme technical deep-dives. I love
