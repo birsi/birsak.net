@@ -7,6 +7,7 @@ export default function About() {
     "System Design & Architecture",
     "Software Design & Patterns",
     "Cloud Infrastructure (AWS, GCP)",
+    "Project Management",
     "Presenting & Moderating",
     "Coaching & Mentoring",
   ];
@@ -54,6 +55,7 @@ export default function About() {
   ];
 
   const certifications = [
+    "AWS Certified Developer - Associate (2023)",
     "AWS Certified Solutions Architect - Associate (2019)",
     "AWS Certified Cloud Practitioner (2019)",
   ];
