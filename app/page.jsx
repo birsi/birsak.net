@@ -24,6 +24,17 @@ export default function Home() {
       <ul className="list-none list-inside space-y-3">
         <li>
           <a
+            href="https://www.linkedin.com/posts/michaelbirsak_aws-certified-developer-associate-was-issued-activity-7104356886891642880-J-k6"
+            target="_blank"
+            className="hover:text-white transition-all"
+          >
+            LinkedIn – Acquired my AWS Certified Developer - Associate
+            certificate
+          </a>
+          <small className="block">02 Sep 2023</small>
+        </li>
+        <li>
+          <a
             href="https://www.youtube.com/watch?v=jw3Si1L-Oww"
             target="_blank"
             className="hover:text-white transition-all"
