@@ -30,3 +30,28 @@ h2 {
     my-5
     text-xs;
 }
+
+h1::selection {
+  background: transparent;
+}
+
+h1 {
+  cursor: default;
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    #000 50%,
+    rgba(0, 0, 0, 0.6) 70%
+  );
+  -webkit-mask-size: 200%;
+  animation: textShine 5s linear infinite;
+}
+
+@keyframes textShine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
