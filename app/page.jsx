@@ -6,7 +6,8 @@ export default function Home() {
       <h2>Hello!</h2>
       <p className="pb-5">
         I&apos;m Michael and I&apos;m a Software Engineer at heart. I&apos;m{" "}
-        <span className="font-semibold">Director of Engineering</span> at{" "}
+        <span className="font-semibold">Director of Product Engineering</span>{" "}
+        at{" "}
         <a
           href="https://www.bitpanda.com/en"
           target="_blank"
@@ -15,7 +16,7 @@ export default function Home() {
           Bitpanda <OpenInNewTabIcon />
         </a>
         , where my teams build business critical applications and services for
-        our Operations & Financial Crime Prevention departments. I love to build
+        our Operations & Compliance (AFC/AML) departments. I love to build
         teams, get high-quality products to market and build companies up for
         success! Though people say I seem happiest when I can get my hands
         dirty, build and create things and simply get things done.

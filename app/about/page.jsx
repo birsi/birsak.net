@@ -79,9 +79,9 @@ export default function About() {
       </p>
       <p className="pb-5">
         What I enjoy most, is spending my free time with my beautiful wife
-        Larissa and my boxer dog Fanny. I am really into good food, drinks,
-        cooking and into exploring amazing restaurants in Vienna and all around
-        the world. Besides that I like tinkering with any kind of new
+        Larissa and my German Boxer Fanny. I am really into good food, drinks,
+        cooking and into exploring amazing restaurants in Austria and all around
+        the world. Besides that, I like tinkering with any kind of new
         technology, reading books and playing pc games. I used to be a tv series
         and movie freak –{" "}
         <a
@@ -92,12 +92,12 @@ export default function About() {
           IMDB
         </a>
         . I still play football from time to time and I love to ski in the
-        winter.
+        winter. ⛷️
       </p>
       <h2>Experience</h2>
       <ul className="pb-5">
         <li className="mb-3">
-          <div>Director of Engineering</div>
+          <div>Director of Product Engineering</div>
           <a
             href="https://www.bitpanda.com"
             target="_blank"
@@ -166,7 +166,7 @@ export default function About() {
           );
         })}
       </ul>
-      <h2>Tech I worked with</h2>
+      <h2>I worked with</h2>
       <ul>
         {tech.map((value, index, arr) => {
           return (
