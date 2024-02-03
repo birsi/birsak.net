@@ -14,11 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className="header-bg h-[26rem] sm:h-[20rem]"></div>
         <div className="relative">
-          <div
-            className="p-8 min-h-screen rel
-import Header frative max-w-screen-xl sm:p-24"
-          >
+          <div className="p-8 min-h-screen max-w-screen-xl sm:p-24">
             <Header />
             {children}
             <Analytics />

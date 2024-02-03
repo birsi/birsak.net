@@ -55,3 +55,12 @@ h1 {
     -webkit-mask-position: -50%;
   }
 }
+
+.header-bg {
+  background-image: url("../../public/images/header-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
+}
