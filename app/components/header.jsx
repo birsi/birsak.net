@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import profileImage from "../../public/images/profile.jpg";
+import flagAt from "../../public/images/flag-at.svg";
 import Navbar from "./navbar";
 import { GithubIcon, LinkedInIcon, TwitterIcon } from "./icons";
 
@@ -22,7 +23,13 @@ export default function Header() {
         <div className="md:flex md:flex-col md:pl-12 justify-center">
           <h1 className="text-5xl leading-tight font-bold">Michael Birsak</h1>
           <p className="text-zinc-600">
-            Software Engineer & Manager – based in Vienna, Austria 🇦🇹
+            Software Engineer & Manager – based in Vienna, Austria{" "}
+            <Image
+              src={flagAt}
+              alt="Flag Austria"
+              style={{ display: "inline", "margin-top": "-4px" }}
+              unoptimized
+            />
           </p>
           <div className="flex mt-5 gap-4 md:justify-start">
             <a

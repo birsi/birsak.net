@@ -64,9 +64,9 @@ export default function About() {
     <main className="pt-8 max-w-3xl">
       <h2>About me</h2>
       <p className="pb-2">
-        I have now spent close to 15 years in various Software Engineering
-        roles. From being a self starter, co-founder and individual contributor
-        to different software engineering management positions.
+        I have now spent around 15 years in various Software Engineering roles.
+        From being a self starter, co-founder and individual contributor to
+        different software engineering management positions.
       </p>
       <p className="pb-2">
         Being able to switch between operative, tactical and strategic tasks,
@@ -79,11 +79,11 @@ export default function About() {
       </p>
       <p className="pb-5">
         What I enjoy most, is spending my free time with my beautiful wife
-        Larissa and my German Boxer Fanny. I am really into good food, drinks,
-        cooking and into exploring amazing restaurants in Austria and all around
-        the world. Besides that, I like tinkering with any kind of new
-        technology, reading books and playing pc games. I used to be a tv series
-        and movie freak –{" "}
+        Larissa and my German Boxer dog Fanny. I am really into good food,
+        drinks, cooking and into exploring amazing restaurants in Austria and
+        all around the world. Besides that, I like tinkering with any kind of
+        new technology, reading books and playing pc games. I used to be a tv
+        series and movie freak –{" "}
         <a
           href="https://www.imdb.com/user/ur26243737/watchlist"
           target="_blank"
