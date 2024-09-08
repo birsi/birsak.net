@@ -5,7 +5,8 @@ export default function Home() {
     <main className="pt-8 max-w-3xl">
       <h2>Hello!</h2>
       <p className="pb-2">
-        I&apos;m Michael and I&apos;m a Software Engineer at heart. I&apos;m a{" "}
+        I&apos;m Michael and I&apos;m a Software Engineer at heart, highly
+        interested in everything around architecture. I&apos;m currently{" "}
         <span className="font-semibold">Director of Product Engineering</span>{" "}
         at{" "}
         <a
@@ -14,7 +15,7 @@ export default function Home() {
           className="text-[#27d17f] fill-[#27d17f] font-semibold hover:text-white hover:fill-white transition-all"
         >
           Bitpanda <OpenInNewTabIcon />
-        </a>
+        </a>{" "}
         where my teams build business critical systems and services within the
         domains of payments & transactions, user identity and regulatory
         compliance.

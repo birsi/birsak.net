@@ -27,7 +27,7 @@ export default function Header() {
             <Image
               src={flagAt}
               alt="Flag Austria"
-              style={{ display: "inline", "margin-top": "-4px" }}
+              style={{ display: "inline", marginTop: "-4px" }}
               unoptimized
             />
           </p>

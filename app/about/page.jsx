@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function About() {
   const skills = [
     "Engineering Management",
-    "Distributed Team Leadership",
+    "Cloud Infrastructure & Services",
     "System Design & Architecture",
+    "Distributed Team Leadership",
     "Software Design & Patterns",
-    "Cloud Infrastructure (AWS, GCP)",
     "Project Management",
     "Presenting & Moderating",
     "Coaching & Mentoring",
@@ -79,10 +79,10 @@ export default function About() {
       </p>
       <p className="pb-5">
         What I enjoy most, is spending my free time with my beautiful wife
-        Larissa and my German Boxer dog Fanny. I am really into good food,
-        drinks, cooking and into exploring amazing restaurants in Austria and
-        all around the world. Besides that, I like tinkering with any kind of
-        new technology, reading books and playing pc games. I used to be a tv
+        Larissa, my family and my German Boxer dog Fanny. I am really into good
+        food, drinks, cooking and into exploring amazing restaurants in Austria
+        and all around the world. Besides that, I like tinkering with any kind
+        of new technology, reading books and playing games. I used to be a tv
         series and movie freak –{" "}
         <a
           href="https://www.imdb.com/user/ur26243737/watchlist"
@@ -166,19 +166,6 @@ export default function About() {
           );
         })}
       </ul>
-      <h2>I worked with</h2>
-      <ul>
-        {tech.map((value, index, arr) => {
-          return (
-            <li
-              key={index}
-              className="inline-block list-none px-2.5 py-1 rounded-lg mr-2 mb-1 bg-zinc-700 text-xs font-medium"
-            >
-              {value}
-            </li>
-          );
-        })}
-      </ul>
       <h2>Certs</h2>
       <ul>
         {certifications.map((value, index, arr) => {
@@ -186,6 +173,19 @@ export default function About() {
             <li
               key={index}
               className="inline-block list-none px-2.5 py-1 rounded-lg mr-2 mb-1 bg-[#FF9900] text-white text-xs font-medium"
+            >
+              {value}
+            </li>
+          );
+        })}
+      </ul>
+      <h2>I worked with</h2>
+      <ul>
+        {tech.map((value, index, arr) => {
+          return (
+            <li
+              key={index}
+              className="inline-block list-none px-2.5 py-1 rounded-lg mr-2 mb-1 bg-zinc-700 text-xs font-medium"
             >
               {value}
             </li>
