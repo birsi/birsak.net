@@ -17,11 +17,11 @@ export default function About() {
     "TypeScript",
     "Java",
     "Node.js",
-    "React.js",
-    "Meteor.js",
+    "React",
     "Next.js",
     "Express",
     "Koa",
+    "Meteor.js",
     "GSAP",
     "Framer/Motion",
     "Angular",
@@ -94,65 +94,98 @@ export default function About() {
         . I still play football from time to time and I love to ski in the
         winter. ⛷️
       </p>
-      <h2>Experience</h2>
-      <ul className="pb-5">
-        <li className="mb-3">
-          <div>Director of Product Engineering</div>
-          <a
-            href="https://www.bitpanda.com"
-            target="_blank"
-            className="text-xs hover:text-[#27d17f] transition-all"
-          >
-            Bitpanda
-          </a>
-        </li>
-        <li className="mb-3">
-          <div>Chief Technology Officer</div>
-          <a
-            href="https://www.hi.health"
-            target="_blank"
-            className="text-xs hover:text-[#fe816a] transition-all"
-          >
-            hi.health
-          </a>
-        </li>
-        <li className="mb-3">
-          <div>Engineering Manager</div>
-          <a
-            href="https://www.runtastic.com"
-            target="_blank"
-            className="text-xs hover:text-[#ffffff] transition-all"
-          >
-            adidas runtastic
-          </a>
-        </li>
-        <li className="mb-3">
-          <div>Lead Customer Engineer, Consultant</div>
-          <a
-            href="https://tech.allianz.com/"
-            target="_blank"
-            className="text-xs hover:text-[#113388] transition-all"
-          >
-            Allianz Technology
-          </a>
-        </li>
-        <li className="mb-3">
-          <div>Co-Founder, Software Engineer</div>
-          <a
-            href="http://www.wild.as"
-            target="_blank"
-            className="text-xs hover:text-[#ffffff] transition-all"
-          >
-            WILD
-          </a>
-        </li>
-        <li>
-          <div>Co-Founder, Software Engineer</div>
-          <a href="" className="text-xs hover:text-[#ffffff] transition-all">
-            creativecocks
-          </a>
-        </li>
-      </ul>
+      <div className="flex flex-row gap-x-5">
+        <div className="basis-1/2">
+          <h2>Experience</h2>
+          <ul className="pb-5">
+            <li className="mb-3">
+              <div>Director of Engineering</div>
+              <div>Senior Engineering Manager</div>
+              <a
+                href="https://www.bitpanda.com"
+                target="_blank"
+                className="text-xs hover:text-[#27d17f] transition-all"
+              >
+                Bitpanda
+              </a>
+            </li>
+            <li className="mb-3">
+              <div>Chief Technology Officer</div>
+              <div>Lead Engineer & Head of Engineering</div>
+              <a
+                href="https://www.hi.health"
+                target="_blank"
+                className="text-xs hover:text-[#fe816a] transition-all"
+              >
+                hi.health
+              </a>
+            </li>
+            <li className="mb-3">
+              <div>Engineering Manager</div>
+              <a
+                href="https://www.runtastic.com"
+                target="_blank"
+                className="text-xs hover:text-[#ffffff] transition-all"
+              >
+                adidas runtastic
+              </a>
+            </li>
+            <li className="mb-3">
+              <div>Lead Customer Engineer, Technical Consultant</div>
+              <div>Customer Engineer, Technical Consultant</div>
+              <a
+                href="https://tech.allianz.com/"
+                target="_blank"
+                className="text-xs hover:text-[#113388] transition-all"
+              >
+                Allianz Technology
+              </a>
+            </li>
+            <li className="mb-3">
+              <div>Co-Founder, Software Engineer</div>
+              <a
+                href="http://www.wild.as"
+                target="_blank"
+                className="text-xs hover:text-[#ffffff] transition-all"
+              >
+                WILD
+              </a>
+              ,{" "}
+              <a
+                href="#"
+                className="text-xs hover:text-[#ffffff] transition-all"
+              >
+                creativecocks
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="basis-1/2">
+          <h2>Education</h2>
+          <ul className="pb-5">
+            <li className="mb-3">
+              <div>Computer Science, MSc</div>
+              <a
+                href="https://www.mdx.ac.uk/"
+                target="_blank"
+                className="text-xs hover:text-[#e30a0a] transition-all"
+              >
+                Middlesex University, London
+              </a>
+            </li>
+            <li className="mb-3">
+              <div>IT & Project Management, BA</div>
+              <a
+                href="https://www.fh-vie.ac.at/en"
+                target="_blank"
+                className="text-xs hover:text-[#023670] transition-all"
+              >
+                University of applied Sciences BFI, Vienna
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <h2>Skills & Expertise</h2>
       <ul>
         {skills.map((value, index, arr) => {
