@@ -6,9 +6,9 @@ export default function Home() {
       <h2>Hello!</h2>
       <p className="pb-2">
         I&apos;m Michael and I&apos;m a Software Engineer at heart, highly
-        interested in everything around architecture. I&apos;m currently{" "}
-        <span className="font-semibold">Director of Product Engineering</span>{" "}
-        at{" "}
+        interested in everything around software and solution architecture.
+        I&apos;m currently{" "}
+        <span className="font-semibold">Director of Engineering</span> at{" "}
         <a
           href="https://www.bitpanda.com/en"
           target="_blank"
