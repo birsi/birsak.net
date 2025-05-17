@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import profileImage from "../../public/images/profile.jpg";
+import profileImage from "../../public/images/michael-birsak-2025.jpg";
 import flagAt from "../../public/images/flag-at.svg";
 import Navbar from "./navbar";
 import { GithubIcon, LinkedInIcon, TwitterIcon } from "./icons";
@@ -15,7 +15,7 @@ export default function Header() {
             <Image
               src={profileImage}
               alt="Michael Birsak"
-              className="rounded-full"
+              className="rounded-full border-zinc-800 border-5"
               priority
             />
           </Link>
@@ -47,7 +47,7 @@ export default function Header() {
               <LinkedInIcon />
             </a>
             <a
-              href="https://twitter.com/MichaelBirsak"
+              href="https://x.com/MichaelBirsak"
               target="_blank"
               className="fill-zinc-500 hover:fill-white transition-all"
             >

@@ -2,20 +2,21 @@ import Link from "next/link";
 
 export default function About() {
   const skills = [
-    "Engineering Management",
+    "Software Design & Patterns",
     "Cloud Infrastructure & Services",
     "System Design & Architecture",
+    "Engineering Management",
     "Distributed Team Leadership",
-    "Software Design & Patterns",
     "Project Management",
     "Presenting & Moderating",
     "Coaching & Mentoring",
   ];
 
   const tech = [
+    "Java",
+    "Micronaut",
     "JavaScript",
     "TypeScript",
-    "Java",
     "Node.js",
     "React",
     "Next.js",
@@ -25,9 +26,9 @@ export default function About() {
     "GSAP",
     "Framer/Motion",
     "Angular",
+    "Postgres",
     "MongoDB",
     "MySQL",
-    "Postgres",
     "Redis",
     "Elasticsearch",
     "Datadog",
@@ -99,6 +100,7 @@ export default function About() {
           <h2>Experience</h2>
           <ul className="pb-5">
             <li className="mb-3">
+              <div>Principal Engineer</div>
               <div>Director of Engineering</div>
               <div>Senior Engineering Manager</div>
               <a

@@ -8,7 +8,7 @@ export default function Home() {
         I&apos;m Michael and I&apos;m a Software Engineer at heart, highly
         interested in everything around software and solution architecture.
         I&apos;m currently a{" "}
-        <span className="font-semibold">Director of Engineering</span> at{" "}
+        <span className="font-semibold">Principal Engineer</span> at{" "}
         <a
           href="https://www.bitpanda.com/en"
           target="_blank"
@@ -16,14 +16,13 @@ export default function Home() {
         >
           Bitpanda <OpenInNewTabIcon />
         </a>{" "}
-        where my teams build business critical systems and services within the
-        domains of payments & transactions, user identity and regulatory
-        compliance.
+        where I oversee the solution architecture for business critical systems and services within the
+        domains of user identity & access management, internal tooling for operations and regulatory compliance.
       </p>
       <p className="pb-5">
-        I love to build teams, get high-quality products to market and build
-        companies up for success! Though people say I seem happiest when I can
-        get my hands dirty, build and create things and simply get things done.
+        I&apos;m happiest when I can
+        get my hands dirty, build and create things and simply get things done. I also love to build teams, get high-quality products to market and build
+        companies up for success!
       </p>
       <h2>Latest Activity</h2>
       <ul className="list-none list-inside space-y-3">
