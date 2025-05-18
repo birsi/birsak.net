@@ -3,7 +3,7 @@ import Link from "next/link";
 import profileImage from "../../public/images/michael-birsak-2025.jpg";
 import flagAt from "../../public/images/flag-at.svg";
 import Navbar from "./navbar";
-import { GithubIcon, LinkedInIcon, TwitterIcon } from "./icons";
+import { GithubIcon, LinkedInIcon, TwitterIcon, BlueskyIcon } from "./icons";
 
 export default function Header() {
   return (
@@ -23,7 +23,7 @@ export default function Header() {
         <div className="md:flex md:flex-col md:pl-12 justify-center">
           <h1 className="text-5xl leading-tight font-bold">Michael Birsak</h1>
           <p className="text-zinc-600">
-            Software Engineer & Manager – based in Vienna, Austria{" "}
+            Software Engineer & Architect – based in Vienna, Austria{" "}
             <Image
               src={flagAt}
               alt="Flag Austria"
@@ -47,11 +47,11 @@ export default function Header() {
               <LinkedInIcon />
             </a>
             <a
-              href="https://x.com/MichaelBirsak"
+              href="https://bsky.app/profile/birsi.bsky.social"
               target="_blank"
               className="fill-zinc-500 hover:fill-white transition-all"
             >
-              <TwitterIcon />
+              <BlueskyIcon />
             </a>
           </div>
         </div>
