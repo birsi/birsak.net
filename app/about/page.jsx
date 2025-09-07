@@ -65,18 +65,20 @@ export default function About() {
     <main className="pt-8 max-w-3xl">
       <h2>About me</h2>
       <p className="pb-2">
-        I have now spent around 15 years in various Software Engineering roles.
-        From being a self starter, co-founder and individual contributor to
-        different software engineering management positions.
+        Over the past 15 years, I have gained experience in diverse
+        software engineering roles – ranging from self-starter, co-founder,
+        and individual contributor to various engineering management
+        positions.
       </p>
       <p className="pb-2">
-        Being able to switch between operative, tactical and strategic tasks,
+        Being able to switch between operational, tactical and strategic tasks,
         and not being afraid to change back and forth from individual
         contributor and management roles, helped me to develop my ability to
         engage and talk at multiple levels of an organization – from executive
-        and high-level interactions to extreme technical deep-dives. I love
-        solving problems, developing solutions, working together with people and
-        helping others on a regular basis.
+        and high-level interactions to extreme technical deep-dives. I love solving 
+        problems, developing solutions, working together with people and helping others on a
+        regular basis; providing excellence in technical leadership, setting up and maintaining
+        proper software engineering practices and culture.
       </p>
       <p className="pb-5">
         What I enjoy most, is spending my free time with my beautiful wife

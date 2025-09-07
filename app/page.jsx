@@ -5,8 +5,8 @@ export default function Home() {
     <main className="pt-8 max-w-3xl">
       <h2>Hello!</h2>
       <p className="pb-2">
-        I&apos;m Michael and I&apos;m a Software Engineer at heart, highly
-        interested in everything around software and solution architecture.
+        I&apos;m Michael and I&apos;m a Software Engineer at heart with a strong passion for software and solution architecture.
+         I work across both frontend and backend engineering, with a particular interest in infrastructure, cloud and emerging AI topics.
         I&apos;m currently a{" "}
         <span className="font-semibold">Principal Engineer</span> at{" "}
         <a
@@ -16,13 +16,12 @@ export default function Home() {
         >
           Bitpanda <OpenInNewTabIcon />
         </a>{" "}
-        where I oversee the solution architecture for business critical systems and services within the
-        domains of user identity & access management, internal tooling for operations and regulatory compliance.
+        where I oversee and contribute to the solution architecture for business critical systems and services within the domains of user
+        identity & access management, internal tooling for operations and regulatory compliance as well as payments infrastructure.
       </p>
       <p className="pb-5">
-        I&apos;m happiest when I can
-        get my hands dirty, build and create things and simply get things done. I also love to build teams, get high-quality products to market and build
-        companies up for success!
+        I&apos;m happiest when I can get my hands dirty, build and create things and simply get things done. I enjoy building teams, bringing high-quality products to 
+        market and setting up companies for long-term success.
       </p>
       <h2>Latest Activity</h2>
       <ul className="list-none list-inside space-y-3">
